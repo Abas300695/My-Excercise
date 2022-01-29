@@ -1,0 +1,141 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+body{
+	background: #dedede;
+	font-family: 'helvetical', arial, sans-serif;
+	font-size: 15px;
+}
+
+p{
+	margin-bottom: 20px;
+	line-height: 1.5em;
+}
+
+a{
+	text-decoration: none;
+	color: #333;
+}
+
+a:hover{
+	color: #666;
+}
+
+.container{
+	max-width: 1080px;
+	margin: 20px auto;
+	background: #fff;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.header{
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
+
+/* Main */
+.login{
+	width: 450px;
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin: 10px;
+}
+
+.logininput{
+	width: 300px;
+	margin: 5px;
+	border: groove;
+	font-size: 12pt;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+}
+
+.containerlogin{
+	max-width: 500px;
+	margin: 20px auto;
+	background: #fff;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.loginbtn{
+	font-family: Ubuntu-Bold;
+	font-size: 18px;
+	color: #000;
+	line-height: 1.2;
+	text-transform: uppercase;
+
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+	min-width: 160px;
+	height: 42px;
+	border-radius: 0px;
+}
+
+.middle{
+	width: 870px;
+	border: 0px solid #dedede;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+
+	.middle img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	.middle a{
+		font-weight: bold;
+	}
+
+.menu{
+	width: 150px;
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	text-align: center;
+}
+
+	.menu ul{
+		list-style-type: none;
+	}
+
+	.menu ul li{
+		display: block;
+	}
+	
+	.menu ul li a{
+		display: block;
+		border-bottom: 1px solid #dedede;
+		margin-bottom: 10px;
+		padding: 5px 5px;
+		font-family: 'helvetical', arial, sans-serif;
+		font-weight: bold;
+	}
+	
+	.menu ul li a:hover{
+		color: orange;
+	}
+
+.footer{
+	clear: both;
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
+	
+	.footer p{
+		margin-bottom: 0px;
+		line-height: 1.5em;
+	}
